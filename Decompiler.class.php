@@ -4,6 +4,8 @@
 ini_set('error_reporting', E_ALL);
 $_CURRENT_FILE = NULL;
 
+define("INDENT", "\t");
+
 function color($str, $color = 33) {
   return "\x1B[{$color}m$str\x1B[0m";
 }
